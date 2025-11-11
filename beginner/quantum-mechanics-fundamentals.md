@@ -16,7 +16,7 @@ Quantum mechanics describes the behavior of nature at its smallest scales - atom
 - Objects exist in superposition - multiple states simultaneously
 - Things can be here AND there at the same time
 - The act of measurement fundamentally changes what we measure
-- Information can be non-local - entangled particles affect each other instantly across any distance
+- Information can be non-local - measurements on entangled particles exhibit instant correlations across any distance
 
 ## Core Principles: Building Intuition
 
@@ -58,6 +58,8 @@ Quantum mechanics describes the behavior of nature at its smallest scales - atom
 
 **Mental Model:** Like rolling dice, but the dice don't even have a value until they land and you look at them. And somehow the dice "know" to give results that match perfect probability distributions over many rolls.
 
+**Note on Interpretations:** The description above assumes the Copenhagen interpretation or similar "collapse" interpretations. Other interpretations (Many-Worlds, Bohmian mechanics, etc.) describe measurement differently but make the same predictions for experimental outcomes.[^1]
+
 ### 4. Uncertainty Principle
 
 **The Intuition:** Certain pairs of properties cannot both be precisely defined at the same time.
@@ -71,7 +73,7 @@ Quantum mechanics describes the behavior of nature at its smallest scales - atom
 
 **Mental Model:** Think about defining a musical note. You can precisely measure its frequency (pitch) by listening for a long time, OR you can precisely measure when it occurs by listening to a short burst. But you can't have both perfect frequency AND perfect timing - that's mathematically impossible for waves. Quantum objects are similar.
 
-**The Math (Gentle):** Δx · Δp ≥ ℏ/2
+**The Math (Gentle):[^2]** Δx · Δp ≥ ℏ/2
 
 Where:
 - Δx = uncertainty in position
@@ -129,16 +131,16 @@ The wavefunction (usually written as ψ, "psi") is the central mathematical obje
 
 ## Why Quantum Mechanics is Not Just "Weird Classical Physics"
 
-Several attempts have been made to explain quantum mechanics as just classical physics with hidden information we don't know about. These "hidden variable theories" have been tested and ruled out by experiments (Bell's theorem and related tests).
+Several attempts have been made to explain quantum mechanics as just classical physics with hidden information we don't know about. These "hidden variable theories" have been tested and ruled out by experiments (Bell's theorem and related tests).[^3][^4][^5]
 
 **What This Means:**
 - Quantum randomness is fundamental, not just due to ignorance
-- Quantum entanglement really allows instant correlations (though not faster-than-light communication)
+- Quantum entanglement really exhibits instant correlations (though not faster-than-light communication)
 - Reality at the quantum level is genuinely different from our classical intuitions
 
 ## Making Peace with Quantum Weirdness
 
-**Accept the Mathematics:** The math of quantum mechanics works perfectly. We've tested it to incredible precision in billions of experiments. It never fails.
+**Accept the Mathematics:** The math of quantum mechanics works perfectly. We've tested it to incredible precision in billions of experiments.[^6] It never fails.
 
 **Question Your Intuitions:** Our intuitions evolved for medium-sized objects moving at medium speeds. They're not tuned for the quantum realm.
 
@@ -165,6 +167,30 @@ Now that you have the fundamental concepts, you can explore:
 
 ---
 
-*"I think I can safely say that nobody understands quantum mechanics." - Richard Feynman*
+## References
+
+[^1]: For an accessible overview of different interpretations, see: Schlosshauer, M., Kofler, J., & Zeilinger, A. (2013). "A snapshot of foundational attitudes toward quantum mechanics". *Studies in History and Philosophy of Science Part B*, 44(3), 222-230. [doi:10.1016/j.shpsb.2013.04.004](https://doi.org/10.1016/j.shpsb.2013.04.004)
+
+[^2]: The rigorous form of the uncertainty principle was derived by: Kennard, E. H. (1927). "Zur Quantenmechanik einfacher Bewegungstypen". *Zeitschrift für Physik*, 44(4-5), 326-352. [doi:10.1007/BF01391200](https://doi.org/10.1007/BF01391200)
+
+[^3]: Bell, J. S. (1964). "On the Einstein Podolsky Rosen paradox". *Physics Physique Физика*, 1(3), 195-200. [doi:10.1103/PhysicsPhysiqueFizika.1.195](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195)
+
+[^4]: Aspect, A., Grangier, P., & Roger, G. (1982). "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell's Inequalities". *Physical Review Letters*, 49(2), 91-94. [doi:10.1103/PhysRevLett.49.91](https://doi.org/10.1103/PhysRevLett.49.91)
+
+[^5]: Hensen, B., Bernien, H., Dréau, A. E., et al. (2015). "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres". *Nature*, 526(7575), 682-686. [doi:10.1038/nature15759](https://doi.org/10.1038/nature15759)
+
+[^6]: For example, the anomalous magnetic moment of the electron has been measured and calculated to agree within 12 decimal places: Hanneke, D., Fogwell, S., & Gabrielse, G. (2008). "New Measurement of the Electron Magnetic Moment and the Fine Structure Constant". *Physical Review Letters*, 100(12), 120801. [doi:10.1103/PhysRevLett.100.120801](https://doi.org/10.1103/PhysRevLett.100.120801)
+
+### Further Reading
+
+**Foundational Textbooks:**
+- Griffiths, D. J., & Schroeter, D. F. (2018). *Introduction to Quantum Mechanics* (3rd ed.). Cambridge University Press. [Standard undergraduate text]
+- Sakurai, J. J., & Napolitano, J. (2017). *Modern Quantum Mechanics* (2nd ed.). Cambridge University Press. [Graduate level]
+
+---
+
+*"I think I can safely say that nobody understands quantum mechanics." - Richard Feynman*[^7]
 
 *But we can build intuition and learn to work with it!*
+
+[^7]: Feynman, R. P. (1965). *The Character of Physical Law*. MIT Press. [From the Messenger Lectures at Cornell University, 1964]

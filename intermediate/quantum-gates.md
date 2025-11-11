@@ -371,7 +371,7 @@ A set of gates is universal if any quantum operation can be approximated arbitra
 - R_x(θ), R_y(θ), R_z(θ) for any θ
 - Plus CNOT
 
-### Solovay-Kitaev Theorem
+### Solovay-Kitaev Theorem[^1]
 
 Any single-qubit gate can be approximated to accuracy ε using O(log²(1/ε)) gates from a finite universal set.
 
@@ -520,12 +520,12 @@ Can build controlled-U from:
 
 Different quantum computing platforms implement gates differently:
 
-### Superconducting Qubits (IBM, Google)
+### Superconducting Qubits (IBM, Google)[^2]
 - Microwave pulses for single-qubit gates
 - Tunable couplings for CNOT
 - Fast gates (~10-100 ns)
 
-### Trapped Ions (IonQ, Honeywell)
+### Trapped Ions (IonQ, Honeywell)[^3]
 - Laser pulses for gates
 - Collective motional modes for entanglement
 - High fidelity, slower (~μs)
@@ -561,7 +561,7 @@ F = |⟨ψ_ideal|ψ_actual⟩|²
 - F = 1: Perfect gate
 - F < 1: Errors present
 
-**Typical fidelities:**
+**Typical fidelities (as of 2024):[^4][^5]**
 - Single-qubit: 99.9% - 99.99%
 - Two-qubit (CNOT): 99% - 99.9%
 
@@ -638,6 +638,28 @@ Quantum gates: Continuous rotations on Bloch sphere
 - Fault-tolerant gate sets
 - Clifford gates and magic states
 - Continuous-time quantum gates
+
+---
+
+## References
+
+[^1]: Dawson, C. M., & Nielsen, M. A. (2006). "The Solovay-Kitaev algorithm". *Quantum Information & Computation*, 6(1), 81-95. arXiv:quant-ph/0505030
+
+[^2]: Arute, F., Arya, K., Babbush, R., et al. (2019). "Quantum supremacy using a programmable superconducting processor". *Nature*, 574(7779), 505-510. [doi:10.1038/s41586-019-1666-5](https://doi.org/10.1038/s41586-019-1666-5)
+
+[^3]: Ballance, C. J., Harty, T. P., Linke, N. M., Sepiol, M. A., & Lucas, D. M. (2016). "High-Fidelity Quantum Logic Gates Using Trapped-Ion Hyperfine Qubits". *Physical Review Letters*, 117(6), 060504. [doi:10.1103/PhysRevLett.117.060504](https://doi.org/10.1103/PhysRevLett.117.060504)
+
+[^4]: Rol, M. A., Ciorciaro, L., Malinowski, F. K., et al. (2020). "Fast, High-Fidelity Conditional-Phase Gate Exploiting Leakage Interference in Weakly Anharmonic Superconducting Qubits". *Physical Review Letters*, 123(12), 120502. [doi:10.1103/PhysRevLett.123.120502](https://doi.org/10.1103/PhysRevLett.123.120502)
+
+[^5]: Gaebler, J. P., Tan, T. R., Lin, Y., et al. (2016). "High-Fidelity Universal Gate Set for ^9Be^+ Ion Qubits". *Physical Review Letters*, 117(6), 060505. [doi:10.1103/PhysRevLett.117.060505](https://doi.org/10.1103/PhysRevLett.117.060505)
+
+### Further Reading
+
+**Textbooks:**
+- Nielsen, M. A., & Chuang, I. L. (2010). *Quantum Computation and Quantum Information* (10th Anniversary Edition). Cambridge University Press. [The standard reference for quantum gates and circuits]
+
+**Review Papers:**
+- DiVincenzo, D. P. (2000). "The Physical Implementation of Quantum Computation". *Fortschritte der Physik*, 48(9-11), 771-783. [Requirements for quantum gates]
 
 ---
 

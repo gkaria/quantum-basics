@@ -77,7 +77,7 @@ A vector is an arrow with:
 
 In quantum mechanics, we often use vectors with complex number components.
 
-### Notation: Dirac's Bra-Ket Notation
+### Notation: Dirac's Bra-Ket Notation[^1]
 
 Quantum mechanics uses special notation invented by Paul Dirac:
 
@@ -282,7 +282,7 @@ The second state cannot be written as a product of individual qubit states!
 
 ## 7. Probability and Statistics
 
-### Born Rule
+### Born Rule[^2]
 
 **The fundamental rule for extracting probabilities from quantum states:**
 
@@ -361,6 +361,27 @@ With these mathematical tools, you can now understand:
 - [Quantum Gates](../intermediate/quantum-gates.md) - How quantum operations work
 - [Quantum Entanglement](../intermediate/quantum-entanglement.md) - Non-separable states
 - [Quantum Interference](../intermediate/quantum-interference.md) - Amplitude combination
+
+---
+
+## References
+
+[^1]: Dirac, P. A. M. (1939). "A new notation for quantum mechanics". *Mathematical Proceedings of the Cambridge Philosophical Society*, 35(3), 416-418. [doi:10.1017/S0305004100021162](https://doi.org/10.1017/S0305004100021162). Also see: Dirac, P. A. M. (1930). *The Principles of Quantum Mechanics*. Oxford University Press.
+
+[^2]: Born, M. (1926). "Zur Quantenmechanik der Stoßvorgänge". *Zeitschrift für Physik*, 37(12), 863-867. [doi:10.1007/BF01397477](https://doi.org/10.1007/BF01397477). [English translation: Born, M. (1926). "On the quantum mechanics of collisions".]
+
+### Recommended Textbooks
+
+**Linear Algebra:**
+- Strang, G. (2016). *Introduction to Linear Algebra* (5th ed.). Wellesley-Cambridge Press. [Clear, intuitive approach]
+- Axler, S. (2015). *Linear Algebra Done Right* (3rd ed.). Springer. [Abstract, proof-oriented]
+
+**Quantum Mechanics:**
+- Griffiths, D. J., & Schroeter, D. F. (2018). *Introduction to Quantum Mechanics* (3rd ed.). Cambridge University Press. [Standard undergraduate text with excellent mathematical development]
+- Sakurai, J. J., & Napolitano, J. (2017). *Modern Quantum Mechanics* (2nd ed.). Cambridge University Press. [Graduate level, Dirac notation throughout]
+
+**Quantum Computing:**
+- Nielsen, M. A., & Chuang, I. L. (2010). *Quantum Computation and Quantum Information* (10th Anniversary Edition). Cambridge University Press. [THE standard reference, excellent mathematical foundations]
 
 ---
 
