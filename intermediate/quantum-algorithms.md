@@ -72,7 +72,7 @@ Amplitudes are complex numbers with:
 
 ## Fundamental Quantum Algorithms
 
-### 1. Deutsch's Algorithm (1985)
+### 1. Deutsch's Algorithm (1985)[^1]
 
 **The first quantum speedup demonstration!**
 
@@ -98,7 +98,7 @@ Amplitudes are complex numbers with:
 
 **Significance:** First proof that quantum computing can be faster than classical.
 
-### 2. Deutsch-Jozsa Algorithm (1992)
+### 2. Deutsch-Jozsa Algorithm (1992)[^2]
 
 **Generalization of Deutsch's algorithm to n bits.**
 
@@ -125,7 +125,7 @@ Determine which.
 
 ---
 
-### 3. Grover's Algorithm (1996)
+### 3. Grover's Algorithm (1996)[^3]
 
 **Quantum search - one of the most important algorithms!**
 
@@ -164,7 +164,7 @@ Think of state space in 2D:
 **The oracle:** Marks solution by phase flip
 **The diffusion:** Reflects around average, amplifying marked state
 
-**Optimal:** Proven that no quantum algorithm can do better than O(√N) for unstructured search.
+**Optimal:** Proven that no quantum algorithm can do better than O(√N) for unstructured search[^4].
 
 **Applications:**
 - Database search
@@ -174,7 +174,7 @@ Think of state space in 2D:
 
 ---
 
-### 4. Shor's Algorithm (1994)
+### 4. Shor's Algorithm (1994)[^5]
 
 **The algorithm that made quantum computing famous!**
 
@@ -187,9 +187,9 @@ Think of state space in 2D:
 - 300-digit number: Hours or days (with large enough quantum computer)
 
 **Why it matters:**
-- RSA encryption relies on factoring being hard
-- Quantum computer could break current internet security
-- Motivated massive investment in quantum computing (and post-quantum cryptography)
+- RSA encryption's security is based on the difficulty of factoring large numbers (though technically relies on the RSA problem, which is closely related)
+- A large-scale quantum computer could break current RSA-based encryption
+- Motivated massive investment in quantum computing and post-quantum cryptography research
 
 **High-level structure:**
 
@@ -230,15 +230,15 @@ Maps state |j⟩ to (1/√N)Σₖ e^(2πijk/N)|k⟩
 - Measuring reveals spacing → reveals period
 
 **Complexity:**
-- Classical (best known): O(exp((n^(1/3))(log n)^(2/3)))
+- Classical (best known, General Number Field Sieve): O(exp((n^(1/3))(log n)^(2/3)))
 - Quantum (Shor): O(n³)
 
 **Exponential speedup!**
 
 **Status:**
 - Algorithm is proven correct
-- Small demonstrations done (factoring 15, 21, etc.)
-- Large-scale implementation needs ~1000s of logical qubits
+- Small demonstrations done (e.g., factoring 15[^6], 21, and other small numbers)
+- Large-scale implementation estimated to need ~1000s of logical qubits
 - Current systems: ~100s of physical qubits, working toward error correction
 
 ---
@@ -499,7 +499,7 @@ Each quantum speedup is algorithm-specific:
 
 ### Quantum Complexity Classes
 
-**BQP (Bounded-error Quantum Polynomial time):**
+**BQP (Bounded-error Quantum Polynomial time)[^7]:**
 - Problems solvable by quantum computer in polynomial time
 - With error probability ≤ 1/3
 
@@ -533,36 +533,38 @@ n qubits can store at most n classical bits of accessible information.
 
 ## Current State and Future
 
-### What We Can Do Now (NISQ Era)
+### What We Can Do Now (NISQ Era)[^8]
 
 **NISQ:** Noisy Intermediate-Scale Quantum
 
-**Current capabilities:**
-- ~100 qubits
+**Current capabilities (as of 2024):**
+- ~100-1000 physical qubits
 - Short algorithms (~100-1000 gates)
 - Useful for: Small-scale simulation, optimization, algorithm development
 
 **Not yet capable of:**
-- Shor's algorithm at useful scale
+- Shor's algorithm at cryptographically-relevant scale
 - Long error-corrected computation
-- Clear advantage over classical for practical problems (mostly)
+- Definitive practical advantage over classical supercomputers for most problems
 
 ### Path to Useful Quantum Computing
 
-**Near term (5-10 years?):**
-- Quantum simulation of molecules, materials
-- Specialized optimization
-- Quantum machine learning experiments
-- Cryptography (QKD already deployed)
+**Important note:** The following timelines are highly speculative estimates based on current trends. Actual development may be faster or slower depending on technological breakthroughs and challenges.
 
-**Long term (10-20+ years?):**
-- Breaking RSA (motivating post-quantum crypto NOW)
-- Drug discovery
+**Near term (estimated 5-10 years):**
+- Quantum simulation of small molecules, materials
+- Specialized optimization problems
+- Quantum machine learning experiments
+- Quantum cryptography (QKD already deployed)
+
+**Long term (estimated 10-20+ years):**
+- Breaking RSA encryption (motivating post-quantum cryptography development now)
+- Drug discovery applications
 - Materials design
 - Fundamental physics simulation
-- Unknown applications
+- Unknown applications yet to be discovered
 
-**Barriers:**
+**Major Barriers:**
 - Scaling to thousands of logical qubits
 - Error correction overhead
 - Connectivity and gate fidelity
@@ -602,6 +604,26 @@ n qubits can store at most n classical bits of accessible information.
 - Grover's geometric interpretation
 - QFT circuit details
 - Error correction codes
+
+---
+
+## References
+
+[^1]: Deutsch, D. (1985). "Quantum theory, the Church-Turing principle and the universal quantum computer". *Proceedings of the Royal Society of London A*, 400(1818), 97-117. [doi:10.1098/rspa.1985.0070](https://doi.org/10.1098/rspa.1985.0070)
+
+[^2]: Deutsch, D., & Jozsa, R. (1992). "Rapid solution of problems by quantum computation". *Proceedings of the Royal Society of London A*, 439(1907), 553-558. [doi:10.1098/rspa.1992.0167](https://doi.org/10.1098/rspa.1992.0167)
+
+[^3]: Grover, L. K. (1996). "A fast quantum mechanical algorithm for database search". *Proceedings of the 28th Annual ACM Symposium on Theory of Computing (STOC)*, 212-219. [doi:10.1145/237814.237866](https://doi.org/10.1145/237814.237866)
+
+[^4]: Bennett, C. H., Bernstein, E., Brassard, G., & Vazirani, U. (1997). "Strengths and weaknesses of quantum computing". *SIAM Journal on Computing*, 26(5), 1510-1523. [doi:10.1137/S0097539796300933](https://doi.org/10.1137/S0097539796300933)
+
+[^5]: Shor, P. W. (1994). "Algorithms for quantum computation: discrete logarithms and factoring". *Proceedings of the 35th Annual Symposium on Foundations of Computer Science (FOCS)*, 124-134. [doi:10.1109/SFCS.1994.365700](https://doi.org/10.1109/SFCS.1994.365700)
+
+[^6]: Vandersypen, L. M., Steffen, M., Breyta, G., Yannoni, C. S., Sherwood, M. H., & Chuang, I. L. (2001). "Experimental realization of Shor's quantum factoring algorithm using nuclear magnetic resonance". *Nature*, 414(6866), 883-887. [doi:10.1038/414883a](https://doi.org/10.1038/414883a)
+
+[^7]: Bernstein, E., & Vazirani, U. (1997). "Quantum complexity theory". *SIAM Journal on Computing*, 26(5), 1411-1473. [doi:10.1137/S0097539796300921](https://doi.org/10.1137/S0097539796300921)
+
+[^8]: Preskill, J. (2018). "Quantum Computing in the NISQ era and beyond". *Quantum*, 2, 79. [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79)
 
 ---
 

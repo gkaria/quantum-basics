@@ -430,13 +430,13 @@ Opposite effect also possible:
 
 ### Historical Milestones
 
-**1803:** Young's double-slit (light)
-**1927:** Davisson-Germer (electrons)
-**1961:** Jönsson (electrons, controlled double-slit)
-**1974:** Neutron interferometry
-**1991:** Atom interferometry
-**1999:** C₆₀ molecule interference
-**2011:** Molecules with 810 atoms showed interference!
+**1803:** Young's double-slit experiment with light[^1]
+**1927:** Davisson-Germer electron diffraction[^2]
+**1961:** Jönsson electron double-slit experiment[^3]
+**1974:** Neutron interferometry[^4]
+**1991:** Atom interferometry[^5]
+**1999:** C₆₀ (buckyball) molecule interference[^6]
+**2013:** Large molecules (>800 atoms) show interference[^7]
 
 ### Modern Applications
 
@@ -528,6 +528,24 @@ Interference shows us that quantum mechanics is not just "classical physics with
 - Quantum field theory and interference
 - Berry phase (geometric phase)
 - Topological phases
+
+---
+
+## References
+
+[^1]: Young, T. (1807). "A Course of Lectures on Natural Philosophy and the Mechanical Arts". *Royal Institution of Great Britain*. Vol. II, 464.
+
+[^2]: Davisson, C., & Germer, L. H. (1927). "Diffraction of Electrons by a Crystal of Nickel". *Physical Review*, 30(6), 705-740. [doi:10.1103/PhysRev.30.705](https://doi.org/10.1103/PhysRev.30.705)
+
+[^3]: Jönsson, C. (1961). "Elektroneninterferenzen an mehreren künstlich hergestellten Feinspalten". *Zeitschrift für Physik*, 161(4), 454-474. [doi:10.1007/BF01342460](https://doi.org/10.1007/BF01342460)
+
+[^4]: Rauch, H., Treimer, W., & Bonse, U. (1974). "Test of a single crystal neutron interferometer". *Physics Letters A*, 47(5), 369-371. [doi:10.1016/0375-9601(74)90132-7](https://doi.org/10.1016/0375-9601(74)90132-7)
+
+[^5]: Keith, D. W., Ekstrom, C. R., Turchette, Q. A., & Pritchard, D. E. (1991). "An interferometer for atoms". *Physical Review Letters*, 66(21), 2693-2696. [doi:10.1103/PhysRevLett.66.2693](https://doi.org/10.1103/PhysRevLett.66.2693)
+
+[^6]: Arndt, M., Nairz, O., Vos-Andreae, J., Keller, C., Van der Zouw, G., & Zeilinger, A. (1999). "Wave–particle duality of C₆₀ molecules". *Nature*, 401(6754), 680-682. [doi:10.1038/44348](https://doi.org/10.1038/44348)
+
+[^7]: Eibenberger, S., Gerlich, S., Arndt, M., Mayor, M., & Tüxen, J. (2013). "Matter-wave interference of particles selected from a molecular library with masses exceeding 10,000 amu". *Physical Chemistry Chemical Physics*, 15(35), 14696-14700. [doi:10.1039/C3CP51500A](https://doi.org/10.1039/C3CP51500A)
 
 ---
 

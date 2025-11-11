@@ -5,7 +5,7 @@
 Quantum entanglement is perhaps the most counterintuitive and fascinating aspect of quantum mechanics. Einstein famously called it "spooky action at a distance" and believed it proved quantum mechanics was incomplete. Yet experiments have confirmed that entanglement is real, fundamental, and cannot be explained by classical physics.
 
 **What makes it so special?**
-When particles are entangled, measuring one particle *instantly* affects the other, no matter how far apart they are - even across the universe. Yet this doesn't allow faster-than-light communication. This paradox is at the heart of quantum mechanics' strangeness.
+When particles are entangled, measurements on one particle exhibit *instant correlations* with measurements on the other, no matter how far apart they are - even across the universe. Yet this doesn't allow faster-than-light communication. This paradox is at the heart of quantum mechanics' strangeness.
 
 ---
 
@@ -16,7 +16,7 @@ When particles are entangled, measuring one particle *instantly* affects the oth
 Two or more quantum systems are **entangled** when:
 1. They're described by a single, unified quantum state
 2. This combined state cannot be separated into independent parts
-3. Measuring one system immediately influences the state of the others
+3. Measurements on one system are immediately correlated with the state of the others
 4. The correlations between them are stronger than anything possible classically
 
 ### A Non-Entangled State (Separable)
@@ -51,13 +51,15 @@ Dr. Bertlmann always wears mismatched socks - one pink, one green. When you see 
 
 ### Quantum Entanglement (Fundamentally Different)
 
-With entangled particles:
-- **Before measurement:** Neither particle has a definite state
+With entangled particles (in the standard quantum mechanical description):
+- **Before measurement:** Neither particle has a definite state[^1]
 - **They're in superposition:** Both exist in all possibilities simultaneously
-- **Upon measurement:** One particle "chooses" a state, and the other instantly "knows" to be correlated
-- **It's not hidden information:** Experiments (Bell tests) prove the correlations aren't just revealing pre-existing properties
+- **Upon measurement:** One particle "chooses" a state, and the measurement outcomes are correlated
+- **It's not hidden information:** Experiments (Bell tests) prove the correlations aren't just revealing pre-existing properties[^2][^3][^4]
 
-**Key Difference:** Classical correlations reveal information. Quantum entanglement *creates* correlated outcomes at the moment of measurement.
+**Key Difference:** Classical correlations reveal pre-existing information. Quantum entanglement creates correlated outcomes at the moment of measurement.
+
+[^1]: This statement assumes the Copenhagen interpretation or similar collapse interpretations. Other interpretations like Bohmian mechanics or Many-Worlds describe this differently.
 
 ---
 
@@ -65,7 +67,7 @@ With entangled particles:
 
 ### Einstein's Objection
 
-Einstein, Podolsky, and Rosen proposed a thought experiment:
+Einstein, Podolsky, and Rosen proposed a thought experiment[^5]:
 
 1. Create two entangled particles
 2. Separate them by a large distance
@@ -91,7 +93,7 @@ Niels Bohr argued that:
 
 ### The Setup
 
-In 1964, John Bell found a way to test whether quantum correlations could be explained by "local hidden variables" (pre-existing properties that just look random to us).
+In 1964, John Bell found a way to test whether quantum correlations could be explained by "local hidden variables" (pre-existing properties that just look random to us)[^2].
 
 ### Bell Inequalities
 
@@ -101,10 +103,12 @@ Bell derived mathematical inequalities that:
 
 ### The Experiments
 
-Starting in the 1970s (Aspect, Clauser, Freedman, and many others), experiments consistently showed:
+Starting in the 1970s, experiments consistently showed[^3][^6][^7]:
 - **Quantum mechanics is correct:** Bell inequalities are violated
 - **Local hidden variables are ruled out:** The correlations cannot be explained by particles carrying predetermined properties
 - **Entanglement is real:** The quantum correlations are genuinely non-classical
+
+Recent "loophole-free" tests (2015) closed all remaining experimental loopholes, providing definitive confirmation[^4][^8][^9].
 
 ### What This Means
 
@@ -432,6 +436,28 @@ These questions remain open. The math works perfectly. The experiments agree. Bu
 
 ---
 
-*"I would not call entanglement 'one' but rather 'the' characteristic trait of quantum mechanics." - Erwin Schrödinger*
+## References
+
+[^2]: Bell, J. S. (1964). "On the Einstein Podolsky Rosen paradox". *Physics Physique Физика*, 1(3), 195-200. [doi:10.1103/PhysicsPhysiqueFizika.1.195](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195)
+
+[^3]: Aspect, A., Grangier, P., & Roger, G. (1982). "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell's Inequalities". *Physical Review Letters*, 49(2), 91-94. [doi:10.1103/PhysRevLett.49.91](https://doi.org/10.1103/PhysRevLett.49.91)
+
+[^4]: Hensen, B., Bernien, H., Dréau, A. E., Reiserer, A., Kalb, N., Blok, M. S., ... & Hanson, R. (2015). "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres". *Nature*, 526(7575), 682-686. [doi:10.1038/nature15759](https://doi.org/10.1038/nature15759)
+
+[^5]: Einstein, A., Podolsky, B., & Rosen, N. (1935). "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?" *Physical Review*, 47(10), 777-780. [doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777)
+
+[^6]: Freedman, S. J., & Clauser, J. F. (1972). "Experimental Test of Local Hidden-Variable Theories". *Physical Review Letters*, 28(14), 938-941. [doi:10.1103/PhysRevLett.28.938](https://doi.org/10.1103/PhysRevLett.28.938)
+
+[^7]: Clauser, J. F., Horne, M. A., Shimony, A., & Holt, R. A. (1969). "Proposed Experiment to Test Local Hidden-Variable Theories". *Physical Review Letters*, 23(15), 880-884. [doi:10.1103/PhysRevLett.23.880](https://doi.org/10.1103/PhysRevLett.23.880)
+
+[^8]: Giustina, M., Versteegh, M. A., Wengerowsky, S., et al. (2015). "Significant-Loophole-Free Test of Bell's Theorem with Entangled Photons". *Physical Review Letters*, 115(25), 250401. [doi:10.1103/PhysRevLett.115.250401](https://doi.org/10.1103/PhysRevLett.115.250401)
+
+[^9]: Shalm, L. K., Meyer-Scott, E., Christensen, B. G., et al. (2015). "Strong Loophole-Free Test of Local Realism". *Physical Review Letters*, 115(25), 250402. [doi:10.1103/PhysRevLett.115.250402](https://doi.org/10.1103/PhysRevLett.115.250402)
+
+---
+
+*"I would not call entanglement 'one' but rather 'the' characteristic trait of quantum mechanics." - Erwin Schrödinger[^10]*
 
 *And he was right. Entanglement is where quantum mechanics most dramatically departs from classical intuition, yet it's also where its greatest power lies.*
+
+[^10]: Schrödinger, E. (1935). "Discussion of probability relations between separated systems". *Mathematical Proceedings of the Cambridge Philosophical Society*, 31(4), 555-563. [doi:10.1017/S0305004100013554](https://doi.org/10.1017/S0305004100013554)
